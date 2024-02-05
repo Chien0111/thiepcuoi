@@ -1,8 +1,10 @@
 import { useEffect, useRef } from "react";
-import videoMp4 from "../assets/02.mp4";
-import Snowfall from "react-snowfall";
 import { useSelector } from "react-redux";
+import Snowfall from "react-snowfall";
 import { playSelect } from "../store/select";
+import videoMp4 from "../assets/02.mp4";
+import double from "../assets/anh-doi.png";
+import "./index.css";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const Layout = ({ children }: any) => {
@@ -15,6 +17,12 @@ const Layout = ({ children }: any) => {
   }, [playValue]);
   return (
     <>
+      <div
+        className="
+      animation-icon-double"
+      >
+        <img className="w-[100px] h-[100px]" src={double} alt="" />
+      </div>
       <Snowfall
         color="pink"
         snowflakeCount={60}
