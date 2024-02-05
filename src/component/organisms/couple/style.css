@@ -1,0 +1,14 @@
+.animate-heart {
+  animation: heart 2s linear infinite;
+}
+@keyframes heart {
+  0% {
+    width: 100px;
+  }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    width: 100px;
+  }
+}
