@@ -21,11 +21,16 @@ const Layout = ({ children }: any) => {
         className="
       animation-icon-double"
       >
-        <img className="w-[100px] h-[100px]" src={double} alt="" />
+        <img
+          className="w-[90px] h-[90px] z-40"
+          style={{ zIndex: 40 }}
+          src={double}
+          alt=""
+        />
       </div>
       <Snowfall
         color="pink"
-        snowflakeCount={60}
+        snowflakeCount={400}
         style={{
           minHeight: "600vh",
           position: "absolute",
@@ -34,7 +39,7 @@ const Layout = ({ children }: any) => {
       />
       {children}
       <video ref={videoRef} controls autoPlay className="hidden">
-        {/* <source src={videoMp4} type="video/mp4" /> */}
+        <source src={videoMp4} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
     </>

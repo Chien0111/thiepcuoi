@@ -16,7 +16,7 @@ const CoupleOR = () => {
       linkIg: "https://www.w3schools.com/js/default.asp",
     },
     {
-      name: "Luong Phung",
+      name: "Le Thanh Hai",
       img: groom,
       local: "Một chàng trai sinh ra và lớn lên tại Chí Linh, Hải Dương",
       intro: "Là một chàng IT chăm chỉ hiền lành và yêu thương cô gái đó",

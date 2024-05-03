@@ -6,7 +6,7 @@ const HomeTemplates = () => {
   return (
     <>
       <HeaderOR />
-      <CoupleOR />
+      {/* <CoupleOR /> */}
     </>
   );
 };
