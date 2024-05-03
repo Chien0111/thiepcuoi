@@ -38,22 +38,24 @@ const HeaderOR = () => {
     img15,
     img16,
   ];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const customStyle: any = { "--i": 1 };
   return (
     <div className="relative">
       <div className="absolute w-full top-[30%] text-center text-white z-10">
         <div className="waviy text-pink-100">
-          <span style={{ "--i": 1 }}>L</span>
-          <span style={{ "--i": 2 }}>E</span>
-          <span style={{ "--i": 3 }}> </span>
-          <span style={{ "--i": 4 }}>T</span>
-          <span style={{ "--i": 5 }}>H</span>
-          <span style={{ "--i": 6 }}>A</span>
-          <span style={{ "--i": 7 }}>N</span>
-          <span style={{ "--i": 8 }}>H</span>
-          <span style={{ "--i": 9 }}> </span>
-          <span style={{ "--i": 10 }}>H</span>
-          <span style={{ "--i": 10 }}>A</span>
-          <span style={{ "--i": 10 }}>I</span>
+          <span style={customStyle}>L</span>
+          <span style={customStyle}>E</span>
+          <span style={customStyle}> </span>
+          <span style={customStyle}>T</span>
+          <span style={customStyle}>H</span>
+          <span style={customStyle}>A</span>
+          <span style={customStyle}>N</span>
+          <span style={customStyle}>H</span>
+          <span style={customStyle}> </span>
+          <span style={customStyle}>H</span>
+          <span style={customStyle}>A</span>
+          <span style={customStyle}>I</span>
         </div>
       </div>
       <Slide duration={1500}>

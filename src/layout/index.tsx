@@ -9,9 +9,9 @@ import "./index.css";
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const Layout = ({ children }: any) => {
   const playValue = useSelector(playSelect);
-  const videoRef = useRef();
+  const videoRef = useRef<HTMLVideoElement>(null);
   useEffect(() => {
-    if (playValue) {
+    if (playValue && videoRef.current) {
       videoRef.current.play();
     }
   }, [playValue]);

@@ -1,4 +1,3 @@
-import { useEffect, useState, useRef } from "react";
 import groom from "../../../assets/01.jpg";
 import fb from "../../../assets/fb.png";
 import ig from "../../../assets/ig.png";
