@@ -38,7 +38,7 @@ const InvitationTemplates = () => {
         }}
         className="css-typing"
       >
-        <p>Người yêu à........</p>
+        <p>Linh Chi à........</p>
         <p>Em đã đến Web này....</p>
         <p>Click tim</p>
       </div>

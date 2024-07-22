@@ -38,7 +38,13 @@ const Layout = ({ children }: any) => {
         }}
       />
       {children}
-      <video ref={videoRef} controls autoPlay className="hidden">
+      <video
+        ref={videoRef}
+        controls
+        autoPlay
+        className="hidden"
+        style={{ display: "none" }}
+      >
         <source src={videoMp4} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
